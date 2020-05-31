@@ -10,9 +10,9 @@
 * venv - виртуальное окружение, содержит информацию о подключённых библиотеках в проекте
 
 ## Директория src
-* main.py - запускаемый модуль, отображает GUI и реагирует на информацию с сокета
-* p300_demonstartion.py - не используется
-* p300_socket_class.py - содержит описание асинхронного UDP сокета
+* [main.py](https://github.com/CatLearned/StimulusPresentation/blob/master/src/main.py) - запускаемый модуль, отображает GUI и реагирует на информацию с сокета
+* [p300_demonstartion.py](https://github.com/CatLearned/StimulusPresentation/blob/master/src/p300_demonstartion.py) - не используется
+* [p300_socket_class.py](https://github.com/CatLearned/StimulusPresentation/blob/master/src/p300_socket_class.py) - содержит описание асинхронного UDP сокета
 
 ### src/main.py
 Общие параметры для отображения и расчёта команды:
@@ -35,5 +35,11 @@
 Порядок работы:
 1. Выставить в [src/main.py](https://github.com/CatLearned/StimulusPresentation/new/master?readme=1#srcmainpy) проекта [StimulusPresentation](https://github.com/CatLearned/StimulusPresentation) type_show равным 0 или 1.
 2. Выбрать стимул, который нам интересен, например команда вперёд.
-3. При появлении (при `type_show == 1`, иначе оно должно наоборот пропасть) изоражения вперёд (Стрелка вверх). В консоле программы FakeP300 нажать Enter
+3. При появлении (при `type_show == 1`, иначе оно должно наоборот пропасть) изоражения вперёд (Стрелка вверх). В консоле программы [FakeP300](https://github.com/CatLearned/FakeP300) нажать Enter
 4. В консоли [StimulusPresentation](https://github.com/CatLearned/StimulusPresentation) должна появиться выбранная команда.
+
+## Команды <---> Изображения
+
+| Команда вперёд | Команда стоп | Команда назад | Команда направо | Команда налево |
+| :------------: | :----------: | :-----------: | :-------------: | :------------: |
+| ![Команда вперёд!](https://github.com/CatLearned/StimulusPresentation/blob/master/stimulus_pics/stimulus_forward.png "Команда вперёд") | ![Команда стоп!](https://github.com/CatLearned/StimulusPresentation/blob/master/stimulus_pics/stimulus_stop.png "Команда стоп") | ![Команда назад!](https://github.com/CatLearned/StimulusPresentation/blob/master/stimulus_pics/stimulus_back.png "Команда назад") | ![Команда направо!](https://github.com/CatLearned/StimulusPresentation/blob/master/stimulus_pics/stimulus_right.png "Команда направо") | ![Команда налево!](https://github.com/CatLearned/StimulusPresentation/blob/master/stimulus_pics/stimulus_left.png "Команда налево") |
