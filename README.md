@@ -33,7 +33,7 @@
 [StimulusPresentation](https://github.com/CatLearned/StimulusPresentation) принимает сигнал и интерпретирует в команду.
 
 Порядок работы:
-1. Выставить в [src/main.py](https://github.com/CatLearned/StimulusPresentation/new/master?readme=1#srcmainpy) проекта [StimulusPresentation](https://github.com/CatLearned/StimulusPresentation) type_show равным 0 или 1.
+1. Выставить в [src/main.py](https://github.com/CatLearned/StimulusPresentation/blob/master/src/main.py) проекта [StimulusPresentation](https://github.com/CatLearned/StimulusPresentation) type_show равным 0 или 1.
 2. Выбрать стимул, который нам интересен, например команда вперёд.
 3. При появлении (при `type_show == 1`, иначе оно должно наоборот пропасть) изоражения вперёд (Стрелка вверх). В консоле программы [FakeP300](https://github.com/CatLearned/FakeP300) нажать Enter
 4. В консоли [StimulusPresentation](https://github.com/CatLearned/StimulusPresentation) должна появиться выбранная команда.
