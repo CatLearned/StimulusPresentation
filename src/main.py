@@ -32,7 +32,7 @@ p300_info = p300_socket("localhost", 9000, None)
 window = visual.Window((700, 700), allowGUI=False)
 
 # Создаём набор стимулов, размещаем их по окружности, в центре команда "Стоп"
-stop = visual.ImageStim(win=window, pos=(0, 0), image='../stimulus_pics/stimulus_stop_1.png', size=(0.25, 0.25))
+stop = visual.ImageStim(win=window, pos=(0, 0), image='../stimulus_pics/stimulus_stop.png', size=(0.25, 0.25))
 forward = visual.ImageStim(win=window, pos=(0, 0.5), image='../stimulus_pics/stimulus_forward.png', size=(0.25, 0.25))
 back = visual.ImageStim(win=window, pos=(0, -0.5), image='../stimulus_pics/stimulus_back.png', size=(0.25, 0.25))
 right = visual.ImageStim(win=window, pos=(0.5, 0), image='../stimulus_pics/stimulus_right.png', size=(0.25, 0.25))
